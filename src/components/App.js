@@ -8,7 +8,7 @@ class App extends Component {
     return (
     <div className="app-container">
       <Navbar />
-        <div className="profile-container">
+        <div className="profilelist-container">
           <ProfileList />
         </div>
     </div>

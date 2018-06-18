@@ -1,11 +1,13 @@
 import React from 'react';
+import ProfileItem from './ProfileItem';
 import mount from '../images/background/mount.jpg';
 
 const ProfileList = () => {
   return (
     <div className="profile-container">
-      <img src={mount} className="background" alt="mount"/>
-      <p>John Doe</p>
+      <ProfileItem name={"Joe Doe"} position="Marketer"/>
+      <ProfileItem name={"Sally Foo Longname"} position="Engineer"/>
+      <ProfileItem name={"Carlos Random"} position="Devops"/>
     </div>
   )
 }
