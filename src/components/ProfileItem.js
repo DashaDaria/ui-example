@@ -1,10 +1,20 @@
 import React from 'react';
-import mount from '../images/background/mount.jpg';
 import './ProfileItem.css';
 
-const ProfileItem = ({name, position}) => {
+
+
+
+const ProfileItem = ({name, position, background}) => {
+
+  var divStyle = {
+    backgroundImage: `url(${background})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    filter: 'blur(2px)',
+  }
+
   return (
-    <div className="profile-item">
+    <div className="profile-item" style={divStyle}>
       <div className="name">{name}</div>
       <div className="position">{position}</div>
     </div>

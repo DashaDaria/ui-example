@@ -1,14 +1,12 @@
+
 .profile-item {
   margin: 1%;
   border-radius: 2px;
-  background: whitesmoke;
   width: 98%;
   height: 300px;
+  border: 1px solid black;
 }
 
-.background {
-  object-fit: fill;
-}
 
 .name {
   padding: 3% 0% 0.5% 3%;
