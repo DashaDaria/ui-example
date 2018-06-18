@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.logo {
+  height: 3%;
+  width: 3%;
+}
+
+.order-filter {
+  color: white;
+}
