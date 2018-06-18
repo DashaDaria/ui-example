@@ -6,10 +6,10 @@ import Navbar from './Navbar'
 class App extends Component {
   render() {
     return (
-    <div>
+    <div className="app-container">
       <Navbar />
-        <div className="app-container">
-
+        <div className="profile-container">
+          <ProfileList />
         </div>
     </div>
     );
@@ -17,3 +17,10 @@ class App extends Component {
 }
 
 export default App;
+
+App.defaultProps = {
+    name: "",
+    position: "",
+    profile: "img",
+    background: ""
+  };

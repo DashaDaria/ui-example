@@ -1,0 +1,6 @@
+.profile-container {
+  width: 100px;
+  height: 50px;
+  margin: 1%;
+  object-fit: cover;
+}
