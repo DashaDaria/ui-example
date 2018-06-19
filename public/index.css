@@ -1,0 +1,164 @@
+html {
+  background-color: black;
+}
+
+body {
+  color: white;
+  font-family: sans-serif;
+  margin: 20px;
+  margin-bottom: 80px;
+}
+
+.navigation {
+  /* position: absolute; */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.navigation .logo {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.order-filter .bold {
+  font-weight: bold;
+}
+
+.order-filter .small {
+  font-size: 10px;
+}
+
+.navigation .logo img {
+  position: relative;
+  width: auto;
+  height: 100%;
+}
+
+.navigation .order-filter {
+  /* position: relative; */
+  display: inline-block;
+  width: calc(100% - 65px);
+  height: 60px;
+  vertical-align: top;
+  text-align: right;
+}
+
+.navigation .order-filter p {
+  position: relative;
+  display: inline-block;
+  line-height: 60px;
+  margin: 0;
+}
+
+.profile-container {
+  width: 100%;
+}
+
+.profile-container .profile {
+  height: 300px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.profile-container .profile .background {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.profile-container .profile .background-one {
+  background-image: url('./images/mount.jpg');
+}
+
+.profile-container .profile .background-two {
+  background-image: url('./images/city.jpg');
+}
+
+.profile-container .profile .background-three {
+  background-image: url('./images/road.jpg');
+}
+
+.profile-container .profile .content {
+  position: relative;
+  top: -100%;
+  height: 100%;
+}
+
+.profile-container .profile .content .info {
+  position: absolute;
+  margin-left: 40px;
+  color: black;
+}
+
+.profile-container .profile .content .info .name p{
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.profile-container .profile .content .info .title p {
+  font-size: 14px;
+  line-height: 70%;
+}
+
+.profile-container .profile .content .avatar {
+  position: absolute;
+  top: calc(50% - 62px);
+  left: calc(50% - 62px);
+}
+
+.profile-container .profile .content .avatar {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-container .profile .content .avatar-one {
+  background-image: url('./images/mark.jpg');
+}
+
+.profile-container .profile .content .avatar-two {
+  background-image: url('./images/emma.jpg');
+}
+
+.profile-container .profile .content .avatar-three {
+  background-image: url('./images/kat.jpg');
+}
+
+@media screen and (max-width: 820px) {
+  .profile-container .profile .content .avatar {
+    top: calc(50% - 80px);
+  }
+
+  .profile-container .profile .content .info {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    bottom: 10px;
+  }
+
+  .navigation .logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navigation .order-filter  {
+    color: black;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+}

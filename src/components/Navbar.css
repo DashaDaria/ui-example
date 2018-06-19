@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
 .navigation {
   display: flex;
   align-items: center;
@@ -12,4 +14,38 @@
 
 .order-filter {
   color: white;
+}
+
+.bold {
+  font-weight: 700;
+}
+/* 
+.background {
+  position: absolute;
+}
+
+.img_one {
+  background-image: :
+}
+
+.img_two {
+  background-image: :
+}
+
+.img_three {
+  background-image: :
+} */
+
+/*MOBILE*/
+@media screen and (max-width: 820px){
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+  }
+
+  .logo {
+    height: 5%;
+    width: 5%;
+  }
 }

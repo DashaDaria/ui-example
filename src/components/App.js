@@ -17,10 +17,3 @@ class App extends Component {
 }
 
 export default App;
-
-App.defaultProps = {
-    name: "",
-    position: "",
-    profile: "img",
-    background: ""
-  };
